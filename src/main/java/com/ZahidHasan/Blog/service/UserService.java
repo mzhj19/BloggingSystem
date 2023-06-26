@@ -1,9 +1,7 @@
 package com.ZahidHasan.Blog.service;
 
-import com.ZahidHasan.Blog.model.User;
-import org.springframework.stereotype.Service;
-
+import com.ZahidHasan.Blog.dto.UserDTO;
 
 public interface UserService {
-    void saveUser(User user);
+    boolean saveUser(UserDTO userDTO);
 }
